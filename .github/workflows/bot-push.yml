@@ -1,0 +1,35 @@
+name: Bot push on
+
+on:
+  workflow_dispatch:
+    inputs:
+      ref:
+        description: 'Branch or tag to checkout'
+        required: false
+        default: 'main'
+
+permissions:
+  contents: write
+
+jobs:
+  push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configure git identity
+        run: |
+          git config user.name "buralux-bot"
+          git config user.email "bot@users.noreply.github.com"
+
+      - name: Commit changes if any
+        run: |
+          git add -A
+          git diff --cached --quiet && echo "No changes" && exit 0
+          git commit -m "bot: update"
+
+      - name: Push
+        run: git push origin HEAD:main
