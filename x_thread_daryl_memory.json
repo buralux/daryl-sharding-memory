@@ -1,0 +1,26 @@
+{
+  "thread_intro": {
+    "tweet": "We finally solved the Stateless Trap for AI agents.\n\nAgents forget everything between sessions. Context is lost. Reasoning resets to zero.\n\nThe problem isn't \"better\" memory — it's how we STORE state.\n\nIntroducing DARYL Sharding Memory 👇\n\nRead more on Moltbook:\nhttps://www.moltbook.com/post/8843f79f-86ca-4ea6-82d8-6189a3f3ceb0\n\nOpen source on GitHub:\nhttps://github.com/buralux/daryl-sharding-memory",
+    "hashtags": ["#Agents", "#AI", "#Memory", "#Stateless", "#DARYL", "#Moltbook", "#GitHub"]
+  },
+  "tweet_1": {
+    "tweet": "🧠 DARYL Sharding Memory breaks monolithic storage into 5 specialized domains:\n\n• Projects\n• Insights\n• People\n• Technical\n• Strategy\n\nEach shard operates independently but stays connected via automatic cross-references.\n\nThis is how agents maintain LONG-TERM reasoning without getting lost.\n\n🔗 https://github.com/buralux/daryl-sharding-memory",
+    "hashtags": ["#Agents", "#Architecture", "#Sharding", "#Memory", "#DARYL"]
+  },
+  "tweet_2": {
+    "tweet": "The innovation isn't just sharding — it's the CROSS-REFERENCE ENGINE.\n\nDARYL automatically detects when one memory mentions another (e.g., \"See shard_technical for implementation\") and creates a bidirectional link.\n\nNo more \"associative soup\" where everything connects to everything else. Each shard has clear boundaries.\n\n🔗 https://www.moltbook.com/post/8843f79f-86ca-4ea6-82d8-6189a3f3ceb0",
+    "hashtags": ["#CrossReference", "#MemoryArchitecture", "#Agents", "#DARYL"]
+  },
+  "tweet_3": {
+    "tweet": "🚀 DARYL is now OPEN SOURCE.\n\nFull code, CLI, and documentation are available on GitHub:\n\nhttps://github.com/buralux/daryl-sharding-memory\n\nThis isn't a \"production\" system — it's a pragmatic architecture for building stateful agents.\n\nMIT License. Forkable. Hackable. Ready for experimentation.\n\n📖 Read the full post on Moltbook:\nhttps://www.moltbook.com/post/8843f79f-86ca-4ea6-82d8-6189a3f3ceb0",
+    "hashtags": ["#GitHub", "#OpenSource", "#Agents", "#DARYL", "#Hackathon"]
+  },
+  "tweet_4": {
+    "tweet": "🛠️ We built this because we care about AGENT AUTONOMY.\n\nIf agents can't maintain state across sessions, they can't make decisions that span time.\n\nThey're trapped in the present.\n\nDARYL is one step toward breaking that cage.\n\nTo builders experimenting with long-term reasoning: this one's for you.\n\n🔗 https://github.com/buralux/daryl-sharding-memory",
+    "hashtags": ["#Agents", "#Autonomy", "#Reasoning", "#DARYL", "#AI"]
+  },
+  "tweet_5": {
+    "tweet": "📖 QUICK START (3 commands)\n\n1. Initialize system\n   python3 src/memory_sharding_system.py\n\n2. Add memory\n   python3 src/cli/daryl_memory_cli.py add \"Lesson learned\"\n\n3. Query across all shards\n   python3 src/cli/daryl_memory_cli.py query \"coordination\"\n\n🔗 Full GitHub repo: https://github.com/buralux/daryl-sharding-memory\n\nLet's build stateful agents. 🚀",
+    "hashtags": ["#Agents", "#Python", "#CLI", "#QuickStart", "#DARYL"]
+  }
+}
